@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Website</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Style -->
+    <link rel="stylesheet" type="text/css" href="css/main.all.min.css" media="screen">
+    <!--[if lte IE 9]>
+        <link rel="stylesheet" href="css/ie.css">
+    <![endif]-->
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+        <script type="text/javascript" src="js/html5shiv.js"></script>
+    <![endif]-->
+
+    <!-- Script -->
+	<script src="js/main.all.min.js"></script>
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="">
+                <div class="col-xs-3 col-sm-3">
+                    <div id="logo">
+                        <a href="/" title="Motek">Logo</a>
+                    </div>
+                </div>
+                <div class="col-xs-9 col-sm-9 text-right">
+                    
+                    
+                </div><!-- div class="col-lg-4" -->
+            </div>
+        </div>
+        <!-- Main menu -->
+		<div class="main-menu">
+    <div id="" class="container">
+<nav class="" role="navigation">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contact Us<span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li class="divider"></li>
+            <li><a href="#">One more separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+	</div>
+	</div>
+</div><!-- div class="navbar" role="navigation" -->
+ </div><!-- div class="header" -->  
+ <div class="main-article">
+        <div class="container">
+		<div class="jumbotron">
+  <h1>Hello, world!</h1>
+  <p>...</p>
+</div>
+ <div id="">
+    
+     <div class="">
+    <div class="row panel-group">
+        <div class="col-xs-12 col-md-6 col-md-6 content-container">
+            <div class="panel panel-default content-container">
+                <div class="panel-heading">
+                    <h3 class="panel-title">xxxxxxxx</h3>
+                </div>
+                <div class="panel-body">
+                    <div id="frontpage-carousel" class="carousel">
+					            <div class="slide">
+                <div class="catalog-text pull-left ">
+                    <h2>Direktemontasje</h2>
+					<img data-src="holder.js/140x140" class="img-thumbnail" alt="140x140" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNDAiIGhlaWdodD0iMTQwIj48cmVjdCB3aWR0aD0iMTQwIiBoZWlnaHQ9IjE0MCIgZmlsbD0iI2VlZSIvPjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjcwIiB5PSI3MCIgc3R5bGU9ImZpbGw6I2FhYTtmb250LXdlaWdodDpib2xkO2ZvbnQtc2l6ZToxMnB4O2ZvbnQtZmFtaWx5OkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmO2RvbWluYW50LWJhc2VsaW5lOmNlbnRyYWwiPjE0MHgxNDA8L3RleHQ+PC9zdmc+" style="width: 140px; height: 140px;">
+                    <div>Verktøy og spiker for innskyting av spiker og gjengebolter i betong og stål</div>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="catalog-text pull-left ">
+                    <h2>Direktemontasje 1</h2>
+					<img data-src="holder.js/140x140" class="img-thumbnail" alt="140x140" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNDAiIGhlaWdodD0iMTQwIj48cmVjdCB3aWR0aD0iMTQwIiBoZWlnaHQ9IjE0MCIgZmlsbD0iI2VlZSIvPjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjcwIiB5PSI3MCIgc3R5bGU9ImZpbGw6I2FhYTtmb250LXdlaWdodDpib2xkO2ZvbnQtc2l6ZToxMnB4O2ZvbnQtZmFtaWx5OkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmO2RvbWluYW50LWJhc2VsaW5lOmNlbnRyYWwiPjE0MHgxNDA8L3RleHQ+PC9zdmc+" style="width: 140px; height: 140px;">
+                    <div>Verktøy og spiker for innskyting av spiker og gjengebolter i betong og stål</div>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="catalog-text pull-left ">
+                    <h2>Direktemontasje 2</h2>
+					<img data-src="holder.js/140x140" class="img-thumbnail" alt="140x140" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNDAiIGhlaWdodD0iMTQwIj48cmVjdCB3aWR0aD0iMTQwIiBoZWlnaHQ9IjE0MCIgZmlsbD0iI2VlZSIvPjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjcwIiB5PSI3MCIgc3R5bGU9ImZpbGw6I2FhYTtmb250LXdlaWdodDpib2xkO2ZvbnQtc2l6ZToxMnB4O2ZvbnQtZmFtaWx5OkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmO2RvbWluYW50LWJhc2VsaW5lOmNlbnRyYWwiPjE0MHgxNDA8L3RleHQ+PC9zdmc+" style="width: 140px; height: 140px;">
+                    <div>Verktøy og spiker for innskyting av spiker og gjengebolter i betong og stål</div>
+                </div>
+            </div>
+					</div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-md-6 col-md-6 content-container">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">xxxxxxxx</h3>
+                </div>
+                <div class="panel-body">
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+</div>
+         </div><!-- div class="container" -->
+    </div><!-- div class="main-article" -->
+    <!-- Footer -->
+    <div class="footer">
+        <div class="container footer-content">            
+            <div class="row">                
+                <div class="col-sm-12 col-md-10">
+				    WebOn AS<Br>
+                    Tel: +47 33 35 33 00
+                </div>
+                <div class="col-sm-12 col-md-2">
+                    <div class="social-sites">
+                        <ul class="list-inline">
+                            <li class="facebook"><a href="#" title="Facebook">Facebook</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!-- div class="footer" -->
+</div></body>
+</html>
