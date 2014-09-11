@@ -1,0 +1,113 @@
+//
+// Common style
+// --------------------------------------------------
+a {
+    cursor: pointer;
+}
+
+.header {
+    .container {
+       padding: 10px 0;
+       #logo {
+           background: url('../images/logo.png') no-repeat;
+       height: 80px;
+       width: 200px;
+       line-height: 180px;
+       overflow: hidden;
+       }
+    }
+    .main-menu {
+        border: 0 none;
+        margin-bottom: 0;
+        .gradient(@start-gradient-color, @second-gradient-color, @third-gradient-color, @end-gradient-color);
+        .container {
+        padding: 0;
+        .navbar-header {
+        padding: 10px 15px;
+        }
+        .nav>li>a:hover, .nav>li>a:focus, .nav .open>a, .nav .open>a:hover, .nav .open>a:focus {
+            color: #fff;
+           .gradient(#5c5c5c 10%, #3c3c3c 58%, #323232 77%, #252525 100%);
+        }
+        }
+    }
+}
+
+.footer {
+    .gradient(@start-gradient-color, @second-gradient-color, @third-gradient-color, @end-gradient-color);
+    color: @text-light-color;
+    bottom: 0;
+    width: 100%;
+    .footer-content {
+        padding: 30px 15px;
+    }
+
+}
+
+.social-sites {
+    li {
+        background: url('../images/social-icons.png') no-repeat;
+        width: 46px;
+        height: 35px;
+        overflow: hidden;
+        a {
+                line-height: 90px;
+            display: block;
+        }
+    }
+    .facebook {
+    background-position: 0 -37px;
+    }
+    .line {
+        background-position: 0 0;
+    }
+}
+
+.main-article {
+    margin: 20px 0;
+}
+
+/* Margin bottom */
+.content-container {
+    margin-bottom: 15px;
+}
+
+/* Slick */
+.slick-prev {
+    &:before {
+        content: "«";
+    }
+}
+.slick-next {
+    &:before {
+        content: "»";
+    }
+}
+.carousel {
+    margin: 0 10px;
+    .slick-prev, .slick-next {
+        width: 40px;
+        height: 45px;
+        &:before {
+            color: #cecece;
+            line-height: 45px;
+            font-size: 45px;
+            font-family: arial;
+        }
+    }
+    .slick-prev {
+        left: -5px;
+    }
+    .slick-next {
+        right: -5px;
+    }
+    h2 {
+        margin-top: 0;
+    }
+}
+
+#map {
+    .panel-body {
+        padding: 0;
+    }
+}

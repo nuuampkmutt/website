@@ -1,0 +1,27 @@
+//
+// Reset
+// --------------------------------------------------
+body {
+    color: @text-color;
+}
+h1 {
+    color: @primary-color;
+    font-weight: bold;
+}
+h2 {
+    font-size: 1.375em;
+}
+.h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+a {
+    color: #fff;
+    &:hover {
+        color: @primary-lighter-color;
+    }
+}
+label {
+    font-weight: normal;
+    color: @secondary-lighter-color;
+}
